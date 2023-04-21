@@ -1,5 +1,12 @@
 # ignore pycahe 
-__pycahe__
+**/__pycache__/
 
 # virtual env 
 env
+
+# db local
+db.sqlite3
+
+# local scripts
+dev.sh
+run.sh
