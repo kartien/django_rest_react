@@ -1,9 +1,10 @@
 
-export function TaskCard(task) {
+export function TaskCard({ task }) {
   return (
     <div>
-      <h1>{task.id}</h1>
+      <h1>{task.title}</h1>
       <p>{task.description}</p>
+      <hr />
     </div>
   )
 }
