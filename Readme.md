@@ -4,4 +4,7 @@
 ```bahs 
 pip install -r requirements.txt
 ```
-## 
+## Run optional script
+```bash
+chmod +x start.sh
+```

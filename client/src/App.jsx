@@ -4,19 +4,21 @@ import { TasksFormPage } from "./pages/TaskFormPage";
 import { Navigation } from "./components/Navigations";
 import { Toaster } from "react-hot-toast";
 
-function App() { 
+function App() {
   return (
     <BrowserRouter>
+      <div className="container mx-auto">
       <Navigation />
       <Routes>
         <Route path="/" element={<Navigate to="/tasks" />} />
         <Route path="/tasks" element={<TasksPage />} />
         <Route path="/tasks-create" element={<TasksFormPage />} />
-        <Route path="/tasks/:id" element={<TasksFormPage/>} />
+        <Route path="/tasks/:id" element={<TasksFormPage />} />
       </Routes>
-      <Toaster/>
+      <Toaster />
+     </div>
     </BrowserRouter>
-  )
+  );
 }
 
-export default App
+export default App;

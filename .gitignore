@@ -7,6 +7,9 @@ env
 # db local
 db.sqlite3
 
+# ignore staticfiles
+staticfiles
+
 # local scripts
 dev.sh
 run.sh
