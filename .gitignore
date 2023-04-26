@@ -13,3 +13,6 @@ staticfiles
 # local scripts
 dev.sh
 run.sh
+
+# vscode 
+.vscode
