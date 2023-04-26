@@ -16,3 +16,7 @@ run.sh
 
 # vscode 
 .vscode
+
+# procfile 
+Procfile
+.env
