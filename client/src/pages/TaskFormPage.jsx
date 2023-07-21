@@ -47,7 +47,7 @@ export function TasksFormPage() {
       }
     }
     loadTask();
-  }, []);
+  },);
 
   return (
     <div className="max-w-xl mx-auto">

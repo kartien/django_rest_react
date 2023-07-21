@@ -1,0 +1,4 @@
+provides = ["node", "python"]
+
+[variables]
+NODE_ENV = 'production'

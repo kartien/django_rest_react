@@ -3,22 +3,19 @@ import axios from "axios";
 const URL =
   process.env.NODE_ENV === "production"
     ? import.meta.env.VITE_BACKEND_URL
-    : "http://localhost:3000/tasks/api/v1/tasks/";
+    : "http://localhost:3000";
 
+console.log(URL);
 const tasksApi = axios.create({
-  baseURL: URL,
+  baseURL: `${URL}/tasks/api/v1/tasks`,
 });
 
-export const getAllTasks = () => {
-  return tasksApi.get("/");
-};
+export const getAllTasks = () => tasksApi.get("/");
 
-export const getTask = (id) => tasksApi.get(`/${id}/`);
+export const getTask = (id) => tasksApi.get(`/${id}`);
 
-export const createTask = (task) => {
-  return tasksApi.post("/", task);
-};
-
-export const deleteTask = (id) => tasksApi.delete(`/${id}`);
+export const createTask = (task) => tasksApi.post("/", task);
 
 export const updateTask = (id, task) => tasksApi.put(`/${id}/`, task);
+
+export const deleteTask = (id) => tasksApi.delete(`/${id}`);
