@@ -6,11 +6,13 @@
     git clone https://github.com/kartien/django_rest_react.git
 ```
 
-## Recommend run script on install and run project
+## Create virtualenviroment
 
 ```bash
-    chmod +x start.sh
-    ./start.sh
+    python -m venv env 
+    # optional 
+    pip install virtualenv
+    virutalenv env
 ```
 
 ## Install requirements.txt
@@ -19,10 +21,24 @@
 pip -r install requirements.txt
 ```
 
-## Run project
+## Run backend project
 
 ```bash
 python manage.py makemigrations
 python manage.py migrate 
 python manage.py runserver
+```
+
+## Initial project React
+
+```bash
+    cd client 
+```
+
+## Install packages
+
+```bash
+    # Your need node or deno 
+    npm install 
+    npm run dev # port assigned vite 
 ```
