@@ -1,5 +1,7 @@
 # Dajngo Rest with React
 
+[![My Skills](https://skillicons.dev/icons?i=react,django,tailwind,&perline)](https://skillicons.dev)
+
 ## Clonde Project
 
 ```bash
