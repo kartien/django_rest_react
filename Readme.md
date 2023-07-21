@@ -1,24 +1,28 @@
-# Dajngo Rest with React 
+# Dajngo Rest with React
 
-## Recommend run script on install and run project 
+## Clonde Project
+
 ```bash
-chmod +x start.sh
-./start.sh
+    git clone https://github.com/kartien/django_rest_react.git
 ```
 
-## Start project Django
+## Recommend run script on install and run project
+
 ```bash
-git clone 
+    chmod +x start.sh
+    ./start.sh
 ```
+
 ## Install requirements.txt
+
 ```bash
 pip -r install requirements.txt
 ```
+
 ## Run project
+
 ```bash
 python manage.py makemigrations
 python manage.py migrate 
 python manage.py runserver
 ```
-
-
